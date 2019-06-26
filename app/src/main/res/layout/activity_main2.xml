@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <EditText
+        android:id="@+id/zhucez"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:hint="请输入要注册的账号" />
+
+    <EditText
+        android:id="@+id/zhucem"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/zhucez"
+        android:layout_marginTop="33dp"
+        android:hint="请输入要注册的密码"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/zhuceid"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/zhucem"
+        android:layout_marginTop="33dp"
+        android:hint="请输入要注册的手机号" />
+
+    <Button
+        android:id="@+id/queding"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/zhuceid"
+        android:layout_marginTop="294dp"
+        android:text="确定" />
+
+</RelativeLayout>
